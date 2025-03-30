@@ -1,26 +1,26 @@
-# Projeto 03 - Análise de Vendas
+# 📊 Projeto 03 - Análise de Vendas
 
 Este projeto tem como objetivo analisar e visualizar dados de vendas utilizando bibliotecas do Python.
 
-Tecnologias Utilizadas
+🚀 Tecnologias Utilizadas
 
-pandas: Manipulação e análise de dados.
+🐍 pandas: Manipulação e análise de dados.
 
-openpyxl: Leitura e escrita de arquivos Excel.
+📂 openpyxl: Leitura e escrita de arquivos Excel.
 
-plotly: Criação de gráficos interativos.
+📊 plotly: Criação de gráficos interativos.
 
-nbformat: Estruturação de notebooks Jupyter.
+📝 nbformat: Estruturação de notebooks Jupyter.
 
-Como Usar
+🛠️ Como Usar
 
-1. Instalação das Bibliotecas
+1️⃣ Instalação das Bibliotecas
 
 Caso ainda não tenha as bibliotecas instaladas, execute o seguinte comando:
 
 pip install pandas openpyxl plotly nbformat
 
-2. Carregar os Dados
+2️⃣ Carregar os Dados
 
 O código lê um arquivo vendas.xlsx. Certifique-se de ter esse arquivo na mesma pasta do script.
 
@@ -31,19 +31,19 @@ import nbformat
 
 dados = pd.read_excel("vendas.xlsx")
 
-3. Análises Exploratórias
+3️⃣ Análises Exploratórias 🔍
 
 O código permite visualizar informações básicas sobre os dados, como:
 
-Primeiras e últimas linhas (head() e tail())
+📌 Primeiras e últimas linhas (head() e tail())
 
-Estrutura dos dados (shape e info())
+🏗️ Estrutura dos dados (shape e info())
 
-Estatísticas descritivas (describe())
+📊 Estatísticas descritivas (describe())
 
-Contagem de vendas por loja, cidade e forma de pagamento (value_counts())
+🏬 Contagem de vendas por loja, cidade e forma de pagamento (value_counts())
 
-4. Agrupamento de Dados
+4️⃣ Agrupamento de Dados 📂
 
 Para analisar o faturamento:
 
@@ -52,7 +52,7 @@ dados.groupby("forma_pagamento")["preco"].sum().to_frame()
 
 Os resultados são salvos em um arquivo Excel Faturamento.xlsx.
 
-5. Visualização de Dados
+5️⃣ Visualização de Dados 📈
 
 Gráficos interativos são gerados para facilitar a análise do faturamento:
 
@@ -62,7 +62,7 @@ grafico.write_html("Faturamento.html")
 
 Gráficos são gerados para diferentes colunas e salvos em arquivos HTML.
 
-6. Laço de Repetição (for)
+6️⃣ Laço de Repetição (for) 🔄
 
 O código também utiliza um loop for para gerar gráficos para várias colunas:
 
