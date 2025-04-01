@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "projeto-03"
 version = "0.1.0"
-description = "Projeto de análise de Dados utilizando algumas bibliotecas do python"
+description = "Projeto de análise de Dados utilizando algumas bibliotecas do python."
 authors = ["Lucas-Brito-Dev <lucasbrito_dev@outlook.com.br>"]
 readme = "README.md"
 
